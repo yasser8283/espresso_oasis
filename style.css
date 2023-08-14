@@ -1,0 +1,41 @@
+.contact > ul > li{
+    list-style: none;
+}
+#hero{
+    background-image: url('https://cdn.pixabay.com/photo/2021/09/17/12/12/coffee-6632524_1280.jpg');
+    color: khaki; 
+}
+.welcome {
+    opacity: 0;
+    animation: fadeInAnimation 3s ease-in-out forwards;
+  }
+  
+  @keyframes fadeInAnimation {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+ .card:hover {
+    animation: moveImage 5s infinite;
+  }
+  
+
+  @keyframes moveImage {
+    0% {
+      background-position: 0% 50%;
+    }
+    100% {
+      background-position: 100% 50%;
+    }
+  }
+  .letter > a{
+    color: white;
+    text-decoration: none;
+  }
+
+ 
+
+
